@@ -3,7 +3,7 @@
   "description": "Intervalový tréningový časovač pre Home Assistant.",
   "version": "1.0.0",
   "slug": "bearstorm_training_timer",
-  "type": "plugin",
+  "type": "lovelace",
   "resources": [
     {
       "url": "/hacsfiles/bearstorm-training-timer-hacs/dist/bearstorm-timer.js",
