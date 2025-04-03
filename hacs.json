@@ -1,17 +1,19 @@
 {
-  "name": "Bearstorm Training Interval Timer",
-  "description": "Custom Lovelace timer card with MQTT control for Home Assistant.",
-  "slug": "bearstorm-training-interval-timer",
+  "name": "Bearstorm Training Timer",
+  "description": "Intervalový tréningový časovač pre Home Assistant.",
+  "version": "1.0.0",
+  "slug": "bearstorm_training_timer",
   "type": "plugin",
-  "authors": ["Bearstorm"],
-  "branding": {
-    "logo": "https://raw.githubusercontent.com/Bearstorm/bearstorm-training-interval-timer/main/logo.png",
-    "readme": "https://raw.githubusercontent.com/Bearstorm/bearstorm-training-interval-timer/main/README.md"
-  },
   "resources": [
     {
-      "url": "https://github.com/Bearstorm/bearstorm-training-interval-timer/releases/latest/download/bearstorm-timer.iife.js",
+      "url": "/hacsfiles/bearstorm-training-timer-hacs/bearstorm-timer.iife.js",
       "type": "module"
     }
-  ]
+  ],
+  "authors": ["Bearstorm"],
+  "keywords": ["timer", "interval", "training", "HACS"],
+  "documentation": "https://github.com/Bearstorm/bearstorm-training-timer-hacs",
+  "repository": "https://github.com/Bearstorm/bearstorm-training-timer-hacs",
+  "issues": "https://github.com/Bearstorm/bearstorm-training-timer-hacs/issues"
 }
+
