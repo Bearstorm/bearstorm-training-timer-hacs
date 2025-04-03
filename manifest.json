@@ -1,0 +1,11 @@
+{
+  "manifest_version": 1,
+  "name": "Bearstorm Training Interval Timer",
+  "version": "1.0.0",
+  "resources": [
+    {
+      "url": "/hacsfiles/bearstorm-training-interval-timer/bearstorm-timer.iife.js",
+      "type": "module"
+    }
+  ]
+}
