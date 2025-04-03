@@ -1,0 +1,17 @@
+{
+  "name": "Bearstorm Training Interval Timer",
+  "description": "Custom Lovelace timer card with MQTT control for Home Assistant.",
+  "slug": "bearstorm-training-interval-timer",
+  "type": "plugin",
+  "authors": ["Bearstorm"],
+  "branding": {
+    "logo": "https://raw.githubusercontent.com/Bearstorm/bearstorm-training-interval-timer/main/logo.png",
+    "readme": "https://raw.githubusercontent.com/Bearstorm/bearstorm-training-interval-timer/main/README.md"
+  },
+  "resources": [
+    {
+      "url": "https://github.com/Bearstorm/bearstorm-training-interval-timer/releases/latest/download/bearstorm-timer.iife.js",
+      "type": "module"
+    }
+  ]
+}
