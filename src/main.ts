@@ -1,3 +1,4 @@
+
 class BearstormTimer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
@@ -71,5 +72,4 @@ class BearstormTimer extends HTMLElement {
     this.dispatchEvent(evt);
   }
 }
-
 customElements.define("bearstorm-timer", BearstormTimer);

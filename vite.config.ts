@@ -1,20 +1,14 @@
-import { defineConfig } from 'vite';
 
+import { defineConfig } from "vite";
 export default defineConfig({
   build: {
     lib: {
-      entry: 'src/main.ts',
-      name: 'BearstormTimer',
-      fileName: 'bearstorm-timer',
-      formats: ['iife']
+      entry: "src/main.ts",
+      name: "BearstormTimer",
+      fileName: () => "bearstorm-timer.js",
+      formats: ["iife"]
     },
-    outDir: 'dist',
-    rollupOptions: {
-      output: {
-        globals: {
-          mqtt: 'mqtt'
-        }
-      }
-    }
+    outDir: "dist",
+    emptyOutDir: true
   }
 });
