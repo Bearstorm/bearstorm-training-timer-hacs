@@ -6,7 +6,7 @@
   "type": "plugin",
   "resources": [
     {
-      "url": "/hacsfiles/bearstorm-training-timer-hacs/dist/bearstorm-timer.js",
+      "url": "/hacsfiles/bearstorm-training-timer-hacs/bearstorm-timer.js",
       "type": "module"
     }
   ],
