@@ -1,0 +1,1 @@
+// buildnutý JS obsah placeholder (normálne by sem išiel výstup z vite build)
