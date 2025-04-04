@@ -1,6 +1,6 @@
 {
   "name": "Bearstorm Training Timer",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "resources": [
     {
       "url": "/hacsfiles/bearstorm-training-timer-hacs/bearstorm-timer.js",
