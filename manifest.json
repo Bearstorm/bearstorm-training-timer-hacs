@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "resources": [
     {
-      "url": "/hacsfiles/bearstorm-training-timer-hacs/bearstorm-timer.iife.js",
+      "url": "/hacsfiles/bearstorm-training-timer-hacs/bearstorm-timer.js",
       "type": "module"
     }
   ]
