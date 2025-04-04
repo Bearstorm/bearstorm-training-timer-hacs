@@ -33,7 +33,7 @@ You can easily set **Work**, **Rest**, and **Rounds**, send commands via **MQTT*
 4. Add the resource manually if not automatically added:
 
    ```yaml
-   url: /hacsfiles/bearstorm-training-timer-hacs/bearstorm-timer.iife.js
+   url: /hacsfiles/bearstorm-training-timer-hacs/bearstorm-timer.js
    type: module
    ```
 
